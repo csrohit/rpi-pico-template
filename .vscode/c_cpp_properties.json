@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/raspberry/pico/pico-sdk/src/common/pico_stdlib/include",
+                "~/raspberry/pico/pico-sdk/src/boards/include/boards",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/pico_stdio/include",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/hardware_timer/include",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/hardware_base/include",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/hardware_uart/include",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/hardware_gpio/include",
+                "~/raspberry/pico/pico-sdk/src/rp2_common/hardware_irq/include",
+                "~/raspberry/pico/pico-sdk/src/common/pico_time/include",
+                "~/raspberry/pico/pico-sdk/src/rp2040/hardware_structs/include",
+                "~/raspberry/pico/pico-sdk/src/rp2040/hardware_regs/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
