@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PICO_SDK_PATH ~/raspberry/pico/pico-sdk)
+# set(PICO_SDK_PATH ~/raspberry/pico/pico-sdk)
 include(pico_sdk_import.cmake)
 
 project(blink C CXX ASM)
